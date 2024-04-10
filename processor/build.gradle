@@ -9,7 +9,9 @@ java {
 
 dependencies {
     implementation project(":annotations")
+    // AutoService 是Google提供的
     annotationProcessor 'com.google.auto.service:auto-service:1.0-rc7'
     compileOnly 'com.google.auto.service:auto-service:1.0-rc7'
+    // javapoet是一个代码生成框架，利用它可以优雅的生成我们想要的代码
     implementation 'com.squareup:javapoet:1.10.0'
 }
