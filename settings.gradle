@@ -1,0 +1,5 @@
+rootProject.name = "AnnotationTest"
+include ':app'
+include ':annotations'
+include ':processor'
+include ':reflect'
